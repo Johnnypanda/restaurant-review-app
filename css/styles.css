@@ -291,10 +291,6 @@ nav h1 a {
   color: #666;
 }
 
-#maincontent-top {
-  display: flex;
-  flex-direction: column;
-}
 
 /* ====================== Media Queries  ====================== */
 
@@ -312,10 +308,6 @@ nav h1 a {
 
   #restaurants-list .restaurant-img {
     max-height: 200px;
-  }
-
-  #maincontent-top {
-    flex-direction: row-reverse;
   }
 
   #restaurant-img {
