@@ -150,7 +150,7 @@ createRestaurantHTML = (restaurant, tabIndex) => {
   textContainer.className = 'text-container';
   li.append(textContainer);
 
-  const name = document.createElement('h1');
+  const name = document.createElement('h2');
   name.innerHTML = restaurant.name;
   textContainer.append(name);
 
